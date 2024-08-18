@@ -1,0 +1,157 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+a {
+  text-decoration: none;
+}
+
+header {
+  position: fixed;
+  color: #fff;
+  text-transform: uppercase;
+  padding: 2.5rem 3rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #ffffff23;
+  z-index: 1;
+}
+header h1 {
+  display: inline;
+  margin: 0;
+  padding: 0;
+}
+nav {
+  padding-left: 3rem;
+  display: flex;
+  justify-content: flex-start;
+  gap: 2.3rem;
+  flex-wrap: wrap;
+  font-size: 0.85rem;
+  font-weight: bold;
+}
+nav a {
+  color: #fff;
+}
+nav a:visited {
+  color: #fff;
+}
+nav a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  background-color: #000;
+  color: #555;
+  text-align: center;
+  padding: 2rem;
+}
+
+.feature {
+  height: 100svh;
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+}
+.recent-launch {
+  background-image: url(./assets/galaxy.jpg);
+}
+.buy-tickets {
+  background-image: url(./assets/eclipse.jpg);
+}
+.space-travel-deals {
+  background-image: url(./assets/landscape.jpg);
+}
+
+.title {
+  position: absolute;
+  bottom: 12rem;
+  left: 4rem;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.title h1 {
+  text-transform: uppercase;
+  font-size: 2.5rem;
+  padding: 0;
+  margin: 0;
+}
+.title h2 {
+  text-transform: uppercase;
+  font-weight: lighter;
+  font-size: 1.2rem;
+  padding: 0;
+  margin: 0;
+}
+
+.title a {
+  border: 2px solid #fff;
+  color: #fff;
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  max-width: 15rem;
+  padding: 1rem 2rem;
+  margin-top: 1rem;
+  font-weight: 400;
+}
+.title a:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+.scroll-to-top {
+  position: fixed;
+  right: 2rem;
+  bottom: 2rem;
+  margin: 0;
+  padding: 1rem;
+  background-color: #ffffff23;
+  font-size: 1.5rem;
+}
+.scroll-to-top a,
+.scroll-to-top a:visited {
+  color: #ffffffad;
+  font-weight: bold;
+}
+.scroll-to-top:hover {
+  background-color: rgba(240, 248, 255, 0.261);
+  bottom: 2.1rem;
+}
+
+.scroll-to-top span {
+  position: relative;
+  top: 2px;
+  padding-right: 4px;
+}
+
+.socials-icons {
+  margin-top: 1rem;
+  font-size: 2rem;
+  display: flex;
+  flex-direction: row;
+  gap: 1.5rem;
+  justify-content: center;
+  align-items: center;
+  height: 3rem;
+}
+.socials-icons a,
+.socials-icons a:visited {
+  color: #ffffff9e;
+  width: 2rem;
+}
+.socials-icons a:hover {
+  font-size: 2.5rem;
+}
+
+#music-player {
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+  opacity: 0.5;
+}
