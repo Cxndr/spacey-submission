@@ -4,7 +4,7 @@
 
 ### 🎯 Ensure each section of the webpage is wrapped in the correct semantic tags, ensuring that it includes a `<header>`, `<nav>`, and `<footer>`.
 
-Semantic HTML tags used throughout html design. Including above as well as `<section>`.
+Semantic HTML tags used throughout HTML design. Including above as well as `<section>`.
 
 ### 🎯 Implement CSS absolute positioning to overlay text on an image or another element.
 
@@ -22,7 +22,7 @@ Used background-image on `<section>` elements instead as discussed in class.
 
 ### 🏹 Create a "back to top" button.
 
-.scroll-to-top div with fixed positioning and link which scrolls to anchor of top page element.
+.scroll-to-top `<div>` with fixed positioning and link which scrolls to anchor of top page element.
 
 ### 🏹 Implement smooth scrolling for internal links to improve user experience.
 
@@ -40,4 +40,4 @@ Footer features social media links utilizing font-awesome icons with `<a>` eleme
 
 Added player with fixed positioning in top right (fixed positioning means user doesn't have to scroll about to find what's playing audio) with the `<audio>` html element. I am also using javascript to add padding to the music player `<div>`, shifting it down, if the user's browser window width would cause it the overlap with the navigation elements (overlapping would make it difficult to click music player controls and navigation links).
 
-Using the autoplay attribute of the `<audio>` element to play automatically on page load as requested. However the most popular browsers including Chrome and Firefox will disable autplaying of audio elements in their default settings in the interest of user experience. This could be worked around with various javascript or iframe solutions. But in the interest of respecting a user's browser settings and providing a better user experience I have not implemented them. If a user has their browser settings set to not block autplay then the audio will still autoplay on page load.
+Using the autoplay attribute of the `<audio>` element to play automatically on page load as requested. However the most popular browsers including Chrome and Firefox will disable autplaying of audio elements in their default settings in the interest of user experience. This could be worked around with various javascript or iframe solutions. But in the interest of respecting a user's browser settings and providing a better user experience I have not implemented them. If a user has their browser settings set to not block autoplay then the audio will still autoplay on page load.
